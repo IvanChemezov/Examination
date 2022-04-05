@@ -1,27 +1,40 @@
 ﻿//              Lets the show begin
-string[] OriginalArray = new string[30];        //  array for draw numbers
-int MaxLenght = 4;                              //  Magic number from task
-int WordsCounter = 1;
-for(int i = 0; i < 3; i++)
-{
-    Console.WriteLine("Could you please type the word");
-    OriginalArray[i] = Console.ReadLine();
-    WordsCounter++;
+///*
+Console.Clear();
+int MaxLenght = 4;                                              //  Magic number from task
+int WordPosition = 0;                                           //  
 
-    //Console.WriteLine("Do you want to continue fill the array?\n\t Yes\t No");
-    //string answer = Console.ReadLine();
-    //if (answer == "No") i = 30;
+Console.Write("How many words do you want to print?\t");
+int ArrayLenght = int.Parse(Console.ReadLine());
+
+
+string[] OriginalArray  = new string[ArrayLenght];             //  array for draw numbers
+string[] ShortArray     = new string[ArrayLenght];             //  change to int Counter
+
+
+//                      Get information
+for(int i = 0; i < ArrayLenght; i++)
+{
+    Console.Write($"Please, enter word №{i + 1}\t\t\t");          //  to know how many words were entered already
+    OriginalArray[i] = Console.ReadLine();
 }
 
-
-
-string[] ShortArray = new string[30];           //  change to int Counter
-for(int i = 0; i < 30; i++)
+//                      Filter information
+for(int i = 0; i < ArrayLenght; i++)
 {
-    int value = OriginalArray[i].ToString().Length;
-    if(value < MaxLenght)
+    
+    if(OriginalArray[i].Length < MaxLenght)
     {
-        ShortArray[i] = OriginalArray[i];
+        ShortArray[WordPosition] = OriginalArray[i];
+        WordPosition++;
     }
-    else{}
+}
+//                      Show information
+if(WordPosition == 0) Console.WriteLine("\nAll words longer when expacted(");
+else
+{
+    for(int i = 0; i < WordPosition; i++)
+    {
+        Console.WriteLine($"Result array's number №{i}, value\t=\t{ShortArray[i]}");
+    }
 }
