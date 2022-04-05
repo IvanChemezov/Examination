@@ -1,0 +1,15 @@
+C:\It_works\Homework\Examination\bin\Debug\net6.0\Examination.exe
+C:\It_works\Homework\Examination\bin\Debug\net6.0\Examination.deps.json
+C:\It_works\Homework\Examination\bin\Debug\net6.0\Examination.runtimeconfig.json
+C:\It_works\Homework\Examination\bin\Debug\net6.0\Examination.dll
+C:\It_works\Homework\Examination\bin\Debug\net6.0\ref\Examination.dll
+C:\It_works\Homework\Examination\bin\Debug\net6.0\Examination.pdb
+C:\It_works\Homework\Examination\obj\Debug\net6.0\Examination.csproj.AssemblyReference.cache
+C:\It_works\Homework\Examination\obj\Debug\net6.0\Examination.GeneratedMSBuildEditorConfig.editorconfig
+C:\It_works\Homework\Examination\obj\Debug\net6.0\Examination.AssemblyInfoInputs.cache
+C:\It_works\Homework\Examination\obj\Debug\net6.0\Examination.AssemblyInfo.cs
+C:\It_works\Homework\Examination\obj\Debug\net6.0\Examination.csproj.CoreCompileInputs.cache
+C:\It_works\Homework\Examination\obj\Debug\net6.0\Examination.dll
+C:\It_works\Homework\Examination\obj\Debug\net6.0\ref\Examination.dll
+C:\It_works\Homework\Examination\obj\Debug\net6.0\Examination.pdb
+C:\It_works\Homework\Examination\obj\Debug\net6.0\Examination.genruntimeconfig.cache
